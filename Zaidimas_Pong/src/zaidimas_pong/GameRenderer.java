@@ -24,7 +24,7 @@ public class GameRenderer {
     public void render(){
             for (int y = 0; y<map.getHeight(); y++){
                 for (int x=0; x<map.getWidth(); x++){
-                    if ((y==(racket.racketY-1) || y==(racket.racketY+1) || y==racket.racketY) && x==0){
+                    if ((y==(racket.getRacketY()-1) || y==(racket.getRacketY()+1) || y==racket.getRacketY()) && x==0){
                         System.out.print("|");
                     }
                     else

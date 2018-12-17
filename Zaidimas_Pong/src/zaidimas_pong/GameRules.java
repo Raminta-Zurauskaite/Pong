@@ -71,9 +71,9 @@ public class GameRules {
         }
         
         private void tryMoveRacket(int dy){
-            int nextY = racket.racketY +dy;
+            int nextY = racket.getRacketY() +dy;
             
-            if ((racket.racketY-1 == 0 && dy == -1) || (racket.racketY+1 == 18 && dy == 1))
+            if ((racket.getRacketY()-1 == 0 && dy == -1) || (racket.getRacketY()+1 == 18 && dy == 1))
                 return;
             racket.setRacketY(nextY);
             }

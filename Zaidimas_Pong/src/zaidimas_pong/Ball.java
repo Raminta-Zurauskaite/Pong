@@ -11,8 +11,8 @@ package zaidimas_pong;
  */
 public class Ball {
     
-    private int ballX = 10;
-    private int ballY = 4;
+    private int ballX;
+    private int ballY;
     
     public Ball(int ballX, int ballY){
         this.ballX = ballX;

@@ -1,8 +1,5 @@
 package zaidimas_pong;
 
-import java.io.IOException;
-import java.util.Scanner;
-
 /**
  *
  * @author Ramune

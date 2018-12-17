@@ -10,7 +10,7 @@ package zaidimas_pong;
  * @author Ramune
  */
 public class Racket {
-    int racketY = 1; //racket takes up 3 spaces; in default example it goes from 0 to 2, middle being 1;
+    private int racketY; //racket takes up 3 spaces; in default example it goes from 0 to 2, middle being 1;
     
     public Racket(int racketY){
         super();
